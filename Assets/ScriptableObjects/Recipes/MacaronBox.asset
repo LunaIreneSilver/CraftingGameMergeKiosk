@@ -10,9 +10,10 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: f3087be2c1caace4a9d7492d98ba2d5e, type: 3}
-  m_Name: Gruen
+  m_Name: MacaronBox
   m_EditorClassIdentifier: 
-  displayName: "Gr\xFCn"
+  displayName: MacaronBox
+  tier: 0
   pattern:
   - item: {fileID: 11400000, guid: f68c9d3a687f6dc4f965428a814273a9, type: 2}
     amount: 1
@@ -24,6 +25,12 @@ MonoBehaviour:
     amount: 0
   - item: {fileID: 0}
     amount: 0
+  - item: {fileID: 11400000, guid: e91d04ca8fa0312408568ff93e801e70, type: 2}
+    amount: 2
+  - item: {fileID: 11400000, guid: eec80e06f50d65e4ca166f6e15f14ae0, type: 2}
+    amount: 2
+  - item: {fileID: 11400000, guid: 95706398973b4bc4bad5e9c94a95a2b9, type: 2}
+    amount: 2
   - item: {fileID: 0}
     amount: 0
   - item: {fileID: 0}
@@ -40,11 +47,5 @@ MonoBehaviour:
     amount: 0
   - item: {fileID: 0}
     amount: 0
-  - item: {fileID: 0}
-    amount: 0
-  - item: {fileID: 0}
-    amount: 0
-  - item: {fileID: 0}
-    amount: 0
-  outputItem: {fileID: 11400000, guid: 6dc621f1d67613347bfa1ec28c4f7dd3, type: 2}
-  outputAmount: 3
+  outputItem: {fileID: 11400000, guid: f27f9012d9ab2264b8f8a254ffd36bf5, type: 2}
+  outputAmount: 1

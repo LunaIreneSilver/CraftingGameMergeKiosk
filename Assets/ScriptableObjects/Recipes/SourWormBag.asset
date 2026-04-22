@@ -10,9 +10,10 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: f3087be2c1caace4a9d7492d98ba2d5e, type: 3}
-  m_Name: Orange
+  m_Name: SourWormBag
   m_EditorClassIdentifier: 
-  displayName: Orange
+  displayName: SourWormBag
+  tier: 0
   pattern:
   - item: {fileID: 11400000, guid: f68c9d3a687f6dc4f965428a814273a9, type: 2}
     amount: 1
@@ -24,6 +25,14 @@ MonoBehaviour:
     amount: 0
   - item: {fileID: 0}
     amount: 0
+  - item: {fileID: 11400000, guid: 2bee71f74b104f741be59a65881102e0, type: 2}
+    amount: 5
+  - item: {fileID: 11400000, guid: ae7f5f0ef9bc2194f8e73b9bbe519312, type: 2}
+    amount: 5
+  - item: {fileID: 11400000, guid: ac80bba6542c6cf4fb3cea23e245a9ff, type: 2}
+    amount: 5
+  - item: {fileID: 0}
+    amount: 1
   - item: {fileID: 0}
     amount: 0
   - item: {fileID: 0}
@@ -38,13 +47,5 @@ MonoBehaviour:
     amount: 0
   - item: {fileID: 0}
     amount: 0
-  - item: {fileID: 0}
-    amount: 0
-  - item: {fileID: 0}
-    amount: 0
-  - item: {fileID: 0}
-    amount: 0
-  - item: {fileID: 0}
-    amount: 0
-  outputItem: {fileID: 11400000, guid: 98233fa7d0cf83a478dbf3820360eaab, type: 2}
-  outputAmount: 3
+  outputItem: {fileID: 11400000, guid: 69d15dd3b1db39d48986031724e79fa3, type: 2}
+  outputAmount: 1
